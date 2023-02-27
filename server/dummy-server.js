@@ -11,7 +11,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 mongoose.Promise = global.Promise;
-mongoose.connect("mongodb://localhost/daam");
+mongoose.connect("mongodb://localhost/dummy");
 
 // Data models and routes to get to them
 const filmsModel = require('./models/filmsModel.js');

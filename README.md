@@ -1,12 +1,5 @@
 # react-native-vs-flutter
 The exact same app developed in React Native and in Flutter. Allows an apples-to-apples comparison
-
-## Accompanying Blog Posts
-
-- [React Native or Flutter: Which should I choose? (Part 1)](https://archive.ph/rm5Hn)
-- [React Native or Flutter: Which should I choose? (Part 2)](https://archive.ph/gDKv5)
-- [React Native or Flutter: Which should I choose? (Part 3)](https://archive.ph/5UpkN)
-
 ## Comparison Metrics
 
 ### Lines of Code
@@ -37,7 +30,7 @@ The exact same app developed in React Native and in Flutter. Allows an apples-to
 3. cd to the "server" folder
 4. npm install (You only need to do this once)
 5. npm run setup
-This will create a new mongoDB database called 'daam' and load it up
+This will create a new mongoDB database called 'dummy' and load it up
 with realistic-looking data. You only need to do this one time, but feel free to do it as many times as you like to refresh the database.
 
 ## To run the node/Express web server
@@ -46,12 +39,12 @@ with realistic-looking data. You only need to do this one time, but feel free to
 
 ## To run the Flutter project
 1. Make sure a device is connected or an emulator is running
-2. cd to the "daam_flutter" folder
+2. cd to the "dummy_flutter" folder
 3. flutter run
 Or you can open the flutter project in your favorite IDE and run the project in the debugger. This has been tested in VS Code and Android Studio.
 
 ## To run the React Native project
 1. Make sure a device is connected or an emulator is running
-2. cd to the "daam-react-native" folder
+2. cd to the "dummy-react-native" folder
 3. npm run start
 # fluttervsreactnative

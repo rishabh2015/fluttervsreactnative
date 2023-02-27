@@ -52,7 +52,7 @@ function connectToDatabase() {
   console.log("Connecting to the database");
   errorMessage = `Can't connect to your database server. Please ensure that it is running and try again. Here's the error:`;
   mongoose.Promise = global.Promise;
-  return mongoose.connect("mongodb://localhost/daam");
+  return mongoose.connect("mongodb://localhost/dummy");
 }
 function confirmContinue() {
   errorMessage = `Okay, we won't continue to run.`;
@@ -233,7 +233,7 @@ function sayGoodbye() {
   
   Check it out by looking at the Mongo DB. Go ...
 
-  mongo daam
+  mongo dummy
   
   ... and then ...
   
